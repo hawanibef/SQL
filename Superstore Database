@@ -1,0 +1,3 @@
+select sum (price)
+from superstore
+group by item_name
